@@ -6,7 +6,7 @@
 
 Les Etapes suivantes expliquent comment installer ces prérequis avec Chocolatey.
 
-1. installer (Chocolatey)[https://chocolatey.org/]
+1. installer [Chocolatey](https://chocolatey.org/)
 2. Une fois chocolatey installé, ouvrir un nouveau powershell en administrateur et taper ```choco install vagrant virtualbox git -y```
 
 ### Prérequis Mac
