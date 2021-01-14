@@ -57,6 +57,16 @@ Vagrant.configure("2") do |config|
   #   vb.memory = "1024"
   # end
   #
+  #
+   config.vm.provider "virtualbox" do |vb|
+     # Display the VirtualBox GUI when booting the machine
+     vb.gui = true
+     # Customize the amount of memory on the VM:
+     vb.memory = "4096"
+     vb.name = "L3 MIAGE DEVOPS"
+     vb.customize ["modifyvm", :id, "--vram", "128"]
+   end
+
   # View the documentation for the provider you are using for more
   # information on available options.
 
@@ -83,8 +93,8 @@ Vagrant.configure("2") do |config|
      curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
      chmod +x /usr/local/bin/docker-compose
      cd /home/vagrant/Desktop/atelier_l3_miage
-     docker 
-
+     docker build  -t nginx-php:latest .
+     docker pull mysql:5.7
 
    SHELL
 end
