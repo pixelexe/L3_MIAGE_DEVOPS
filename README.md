@@ -14,6 +14,10 @@ Les Etapes suivantes expliquent comment installer ces prérequis avec Chocolatey
 1. installer Vagrant https://www.vagrantup.com/downloads.html
 2. installer virtual box: https://www.virtualbox.org/wiki/Downloads
 
+### Prérequis Linux
+
+installer simplement Docker https://docs.docker.com/get-docker/
+
 ## lancement de la machine virtuelle
 
 Pour lancer la machine virtuelle, cloner ce dépot en local, puis, à la racine du dépo, tapez la commande ```vagrant up```. L'opération peut durer jusqu'à une heure, en fonction de votre connection internet (plusieurs Go sont téléchargés).
