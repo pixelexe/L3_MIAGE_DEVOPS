@@ -11,11 +11,14 @@ Les Etapes suivantes expliquent comment installer ces prérequis avec Chocolatey
 
 ### Prérequis Mac
 
-TODO
+1. installer Vagrant https://www.vagrantup.com/downloads.html
+2. installer virtual box: https://www.virtualbox.org/wiki/Downloads
 
 ## lancement de la machine virtuelle
 
-Pour lancer la machine virtuelle, cloner ce dépot en local, puis, à la racine du dépo, tapez la commande ```vagrant up```. L'opération peut durer jusqu'à une heure, en fonction de votre connection internet (plusieurs Go sont téléchargés)
+Pour lancer la machine virtuelle, cloner ce dépot en local, puis, à la racine du dépo, tapez la commande ```vagrant up```. L'opération peut durer jusqu'à une heure, en fonction de votre connection internet (plusieurs Go sont téléchargés).
+
+**Attention**: la machine virtuelle va s'afficher, mais des programmes sont installés en arrière plan. N'essayez pas de vous connecter avant que les programmes soient installés (vagrant doit vous rendre la main dans votre terminal/powershell)
 
 ## Prise en main de la machine virtuelle
 
@@ -23,5 +26,23 @@ Pour lancer la machine virtuelle, cloner ce dépot en local, puis, à la racine 
 
 Pour ouvrir la session de l'utilisateur `vagrant` dans la machine virtuelle, utilisez le mot de passe `vagrant`
 
-### 
+### Fermer la session 
+
+Pour fermer la session, allez dans le menu démarrer (en base à droite) > Leave > Shutdown
+
+### relancer la machine virtuelle
+
+retournez dans le dépot puis faire (ça devrait être beaucoup plus rapide la deuxième fois, car la machine est déjà crée)
+
+```
+vagrant up
+```
+
+### Reprendre tout de zero
+
+rendez vous dans le dépot, puis faire
+```
+vagrant destroy -f
+```
+puis supprimer le répertoire caché .vagrant
 
