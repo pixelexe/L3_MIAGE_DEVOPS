@@ -1,5 +1,8 @@
 # MIAGE_L3_DEVOPS
 
+- text is CC BY-NC-SA V4.0
+- code is GNU GPL V3.0
+
 ## Installation des Prérequis (Vagrant, Virtualbox et Git)
 
 ### Prérequis Windows
