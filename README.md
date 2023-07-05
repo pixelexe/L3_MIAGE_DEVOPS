@@ -23,7 +23,7 @@ installer simplement Docker https://docs.docker.com/get-docker/
 
 ## lancement de la machine virtuelle
 
-Pour lancer la machine virtuelle, cloner ce dépot en local, puis, à la racine du dépo, tapez la commande ```vagrant up```. L'opération peut durer jusqu'à une heure, en fonction de votre connection internet (plusieurs Go sont téléchargés).
+Pour lancer la machine virtuelle, cloner ce dépot en local, puis, à la racine du dépot, tapez la commande ```vagrant up```. L'opération peut durer jusqu'à une heure, en fonction de votre connection internet (plusieurs Go sont téléchargés).
 
 **Attention**: la machine virtuelle va s'afficher, mais des programmes sont installés en arrière plan. N'essayez pas de vous connecter avant que les programmes soient installés (vagrant doit vous rendre la main dans votre terminal/powershell)
 
