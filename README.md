@@ -39,7 +39,7 @@ Pour fermer la session, allez dans le menu démarrer (en base à droite) > Leave
 
 ### relancer la machine virtuelle
 
-retournez dans le dépot puis faire (ça devrait être beaucoup plus rapide la deuxième fois, car la machine est déjà crée)
+retournez dans le dépot puis faire (ça devrait être beaucoup plus rapide la deuxième fois, car la machine est déjà créée)
 
 ```
 vagrant up
